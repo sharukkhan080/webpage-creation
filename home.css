@@ -1,0 +1,70 @@
+ul.navlist {
+
+    text-decoration: none
+
+}
+
+.navlist li {
+  display:inline-block;
+  font-family: verdana;
+  font-size: 30px;
+  border: 1px;
+  border-style: all;
+  text-align: center;
+  padding: 10px
+}
+
+#navDiv{
+	background-color: lightblue;
+	height: 70px;
+}
+
+.navlist li a {
+
+    text-decoration:none;
+}
+
+
+.content-div{
+	font-size:30px; 
+	height: 500px;
+    width: 100%;
+    background-color:lightblue;
+}
+
+.content-div h1 { 
+padding-top:5px;
+text-align: center;
+	}
+
+.content-div p{
+	text-align: justify;
+	pa dding-left: 10px;
+}
+
+.image-div img{
+height: 190px;
+width: 132px;
+
+}
+.para{
+	float: left;
+	width: 85%;
+}
+
+.phone-content{
+	font-size: 18px;
+	color: red;
+}
+.footer {
+    background-color:lightblue
+}
+.footer .footer-icons {
+	text-align: center;
+}
+.footer .footer-icons i{
+    font-size: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-left: 10px;
+}
