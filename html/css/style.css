@@ -1,0 +1,123 @@
+body{
+	/*margin-left: 80px;
+	margin-right: 80px;*/
+	font-family: verdana;
+}
+.main-div{
+	background-image: url("../images/jerry.png");
+	background-color: #b3c7b9;
+	background-repeat: no-repeat; 
+	background-size: 100% 100%;
+/*	background-size: hover;*/
+	background-attachment: fixed;
+    height: 1200px;
+    width: 100%;
+}
+.nav-div{
+	/*background-color: orange;*/
+	height: 300px;
+	width: 30%;
+	float: left;
+    margin:10px;
+    position: fixed;
+}
+.content-div{
+	/*background-color:red;*/
+	height: 300px;
+	width: 65%;
+	float:right;
+	margin: 10px;
+}
+.nav-list-div{
+margin-top: 60%;
+
+}
+.nav-ul {
+    list-style-type: none;
+    display: block;
+    padding: 10px;
+
+}
+
+
+.nav-ul li {
+    height: 50px;
+    width: 40%;
+    margin-bottom: 1px;
+    background-color:black;
+}
+
+.nav-ul li a {
+text-decoration: none; 
+align-items: center; 
+color: white;
+display: block;
+padding-top: 15px;
+padding-left:10px
+}
+
+
+.nav-ul li a:hover {
+height: 35px;
+width: 120%;
+color: black;
+background-color: white;
+padding-top: 15px;
+padding-left:10px
+}
+
+.heading{
+	font-size: 70px;
+	background-color: white;
+	width:fit-content;
+}
+.heading2{
+	color: white
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+	color:white;
+	background-color:rgb(0,0,0,0.7);
+}
+
+
+input[type="text"] ,input[type="email"] ,textarea[type="text"]{
+	padding: 12px 5px;
+	margin-bottom: 5px;
+    width: 92%;
+    border: none;
+    background-color:rgba(0,0,0,0.7)
+
+}
+
+button{
+	height: 40px;
+	width: 80px;
+	display: inline-block;
+	text-decoration: none;
+	border: none;
+	background-color: white;
+	text-align: center;
+	font-size: 14px;
+
+}
+h1.heading3{
+	color:white;
+	font-size: 50px;
+	background-color: grey;
+	width: fit-content;
+}
+
+.gallery-div img {
+	max-height: 500px;
+	max-width: 300px;
+	padding: 0px;
+	margin:0px;
+}
+
+li.active a{
+color: black;
+background-color: white;
+height: 35px;
+}
